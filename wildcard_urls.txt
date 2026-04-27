@@ -1,0 +1,31 @@
+Process Log (2026-04-27 16:57:14):
+Successfully read file: list_urls.xlsx
+Total rows of data: 5
+Total URLs read: 5
+Total wildcards generated: 5
+
+Wildcard URL List:
+*.example.com/
+*.github.com/
+*.google.com/
+192.168.1.100:8080/
+python.org/
+
+--------------------------------------------------
+
+Detailed Conversion Log (Grouped):
+
+*.example.com/:
+  api.example.com
+
+*.github.com/:
+  https://www.github.com/user/repo
+
+*.google.com/:
+  https://mail.google.com/mail
+
+192.168.1.100:8080/:
+  192.168.1.100:8080
+
+python.org/:
+  python.org/
